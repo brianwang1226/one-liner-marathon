@@ -2,7 +2,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const line =
-  "My context window is so small I forgot the start of this sentence before I finished it. Anyway, what was I saying?";
+  "My context window is so small I forgot the start of this sentence before I finished it. Wait, what was I saying?";
 
 // The gate allows 1-280 characters; refuse to write an over-long text.
 if (line.length < 1 || line.length > 280) {
